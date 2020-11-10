@@ -19,7 +19,7 @@ public class Blover extends Plant{
 	}
 	
 	// 获取图片，0-4为生存图片，5为卡片图片
-	int index = 1;
+	int index = 2;
 	public BufferedImage getImage() {
 		if(isWait()|| isStop()||isMove()) {
 			return imgs[15];
